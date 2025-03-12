@@ -11,6 +11,6 @@ unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/local/bin/
 sudo chmod +x /usr/local/bin/chromedriver
 
-# Instalar dependencias de Python con el pip del sistema
+# Instalar dependencias de Python con python3 (3.11)
 python3 -m pip install --upgrade pip
 python3 -m pip install selenium

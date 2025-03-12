@@ -1,9 +1,9 @@
 {
     "name": "YouTube Views Bot",
-    "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",  // Cambiado a 3.11
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
-            "version": "3.9"
+            "version": "3.11"  // Especificamos 3.11
         }
     },
     "postCreateCommand": "bash .devcontainer/setup.sh",
